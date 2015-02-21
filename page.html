@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pure-min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="download.js"></script>
+    <title>ChromeGet</title>
+  </head>
+  <body>
+    <div id="main-view">
+    <form class="pure-form">
+    <textarea id="url-list" class="pure-input-1" placeholder="Paste URLs for download"></textarea>
+    <br>
+    <div id="progress">
+      Progress:<progress id="bar"></progress>
+    </div>
+    <button id="download-now" class="pure-button pure-button-primary" type="button">Download All URLs</button>
+    <button id="load-file-wrapper" class="pure-button pure-button-primary" type="button">
+      Load URLs from File
+      <input id="load-file" type="file">
+    </button>
+    </form>
+    <table id="errors" class="pure-table pure-table-horizontal">
+      <thead>
+        <tr><th>Errors</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    </div>
+  </body>
+</html>
+
