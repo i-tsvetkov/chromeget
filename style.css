@@ -76,4 +76,30 @@ progress#bar::-webkit-progress-value {
   background: #0078E7;
 }
 
+#note {
+  margin-top: 5px;
+  width: 100%;
+}
+
+#note > thead {
+  color: white;
+  background: #7ED87E;
+}
+
+#note > tbody * {
+  background: #DAF6DA;
+}
+
+#note > tbody > tr > th {
+  text-align: left;
+  font-weight: normal;
+}
+
+#note > tbody *, #note > thead *, #note {
+  border-color: #A9E5A9;
+}
+
+#main-view > form {
+  margin-bottom: 23px;
+}
 
